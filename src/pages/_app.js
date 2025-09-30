@@ -1,5 +1,22 @@
-import "@/styles/globals.css";
+// import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+// export default function App({ Component, pageProps }) {
+//   return <Component {...pageProps} />;
+// }
+import '../styles/globals.css'; // add this at top
+import * as React from 'react';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+
+
+
+const theme = createTheme();
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
