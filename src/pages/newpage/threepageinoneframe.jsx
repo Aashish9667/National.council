@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 // Import your pages/components
 import Herosection1 from "./herosection1";
 import Herosection2 from "./herosection2";
-import Herosection3 from "./Herosection3";
+import Herosection3 from "./herosection3";
 
 export default function Index() {
   return (
