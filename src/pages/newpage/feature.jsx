@@ -26,9 +26,9 @@ export default function Navbar() {
   }
 `}</style>
 
-      <div className="bg-[#1D3D76] w-full h-full pt-10 ">
+      <div className="bg-[#1D3D76] w-full h-full md:pt-10 pt-7 ">
         <h1
-          className="text-[44px] font-bold text-center text-white md:mb-20 leading-[48px]"
+          className="md:text-[44px] text-[34px] mb-5  md:mb-20 font-bold text-center text-white md:leading-[48px] leading-[38px]"
           style={{ fontFamily: "'Myriad Pro', sans-serif" }}
         >
           Featured Achievements
@@ -64,7 +64,7 @@ export default function Navbar() {
           )}
 
           {/* Explore More Button */}
-          <div className="mt-15">
+          <div className="md:mt-15 mt-5">
             <button
               className="cursor-pointer flex justify-center items-center mb-2 mx-auto text-[16px] text-white border-0 px-4 py-2 rounded-full hover:bg-orange-600 bg-orange-500 leading-[22px] font-semibold"
               style={{ fontFamily: "'Myriad Pro', sans-serif" }}

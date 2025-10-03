@@ -26,7 +26,7 @@ export default function Navbar() {
               alt="National Council For Skill Education"
               width={150}
               height={150}
-              className="w-auto h-24"
+              className="w-auto md:h-24 h-16"
               priority
             />
           </div>
@@ -36,7 +36,7 @@ export default function Navbar() {
             {/* Top Links + Search */}
             <div className="flex items-center gap-6">
               {/* Search Box */}
-              <div className="relative">
+              <div className="relative hidden lg:block">
                 <span className="absolute inset-y-0 left-2 flex items-center pointer-events-none">
                   <svg
                     className="w-4 h-4 text-gray-400"
@@ -73,7 +73,7 @@ export default function Navbar() {
               </div>
 
               {/* Hamburger menu for mobile */}
-              <div className="lg:hidden">
+              <div className="lg:hidden mt-5">
                 <button
                   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                   className="focus:outline-none"

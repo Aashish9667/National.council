@@ -27,16 +27,16 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="bg-[#fafafa] md:pt-20 md:mt-0">
+    <div className="bg-[#fafafa] md:pt-20 md:mt-0 pt-10">
       {/* Section Title */}
       <div
-        className="text-center pt-4 pb-4 font-bold text-[44px] leading-[48px]"
+        className="text-center md:pt-4 md:pb-4 font-bold text-[34px] md:text-[44px] leading-[48px]"
         style={{ fontFamily: "'Myriad Pro', sans-serif" }}
       >
         <h1>Events & Updates</h1>
       </div>
 
-      <div className="text-center pt-2 pb-13 text-[15px] leading-[22px]">
+      <div className="text-center md:pt-2 md:pb-13 pt-2 pb-10 text-[15px] leading-[22px]">
         <p>Stay updated with NCSE’s latest initiatives:</p>
       </div>
 

@@ -5,7 +5,7 @@ import { Pause, Play } from "lucide-react"; // ✅ icon set (or use any icon lib
 export default function Page14() {
   return (
     <div
-      className="w-full h-[480px] flex justify-end items-end px-4 md:px-8 relative md:mt-28"
+      className="w-full h-[480px] flex justify-end items-end px-4 md:px-8 relative md:mt-28 pt-40 md:pt-0"
       style={{
         backgroundImage: `url('/baner1.png')`, // ✅ background banner
         backgroundSize: "cover",
@@ -56,11 +56,11 @@ export default function Page14() {
           <img
             src="/3.png" // ✅ main right image
             alt="student"
-            className="absolute bottom-0 w-full md:w-auto max-w-[600px] md:max-w-[700px] max-h-[970px] object-contain md:-mr-6"
+            className="absolute bottom-0 w-full md:w-auto max-w-[600px] max-h-[970px]  md:max-w-[700px] md:max-h-[970px] object-contain md:-mr-6"
           />
 
           {/* Vertical Right Button */}
-          <button className="absolute -right-1 bottom-80 bg-orange-500 text-white px-2 py-1 rounded-b-lg rotate-90 hover:bg-orange-600 shadow-lg">
+          <button className="absolute  md:-right-1 bottom-45 md:bottom-80 bg-orange-500 text-white px-2 py-1 rounded-b-lg rotate-90 hover:bg-orange-600 shadow-lg">
             <span className="block whitespace-nowrap cursor-pointer">
               Enquiry now
             </span>

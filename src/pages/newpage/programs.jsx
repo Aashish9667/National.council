@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Programs() {
-  // ✅ Array of boxes with title and subtitle
   const boxes = [
     { title: "SCHOOL EDUCATION (PRE-DEGREE)", subtitle: "Elementary, Secondary, Senior Secondary" },
     { title: "SKILL DEVELOPMENT PROGRAMS", subtitle: "Short, medium, long-term courses" },
@@ -14,14 +13,18 @@ export default function Programs() {
   ];
 
   return (
-    <div className="bg-gradient-to-r from-[#1D3D76] to-[#E64622] min-h-[473px] flex justify-center ">
-      {/* Content Wrapper with fixed base width */}
-      <div className="flex justify-between items-stretch" style={{ minWidth: "1200px" }}>
+    <div className="bg-gradient-to-r from-[#1D3D76] to-[#E64622] min-h-[473px] flex justify-center px-4 md:pt-0 pt-5">
+      <div className="flex flex-col md:flex-row justify-between items-center md:items-stretch w-full md:min-w-[1200px]">
         
-        {/* Left Section (Title top + Image bottom) */}
-        <div className="flex flex-col justify-between">
-          <h1 className="text-[44px] font-bold text-white md:mt-13 md:mb-6 md:ml-12">PROGRAMS</h1>
-          <div className="w-[384px] h-[490px] self-start md:-mb-30">
+        {/* Left Section (Heading + Image for desktop) */}
+        <div className="flex flex-col items-center md:items-start w-full md:w-auto order-1 md:order-none">
+          {/* Heading */}
+          <h1 className="text-[28px] md:text-[44px] font-bold text-white text-center md:text-left md:mt-13 md:mb-6 md:ml-12">
+            PROGRAMS
+          </h1>
+
+          {/* Image → only visible on desktop here */}
+          <div className="hidden md:block w-[384px] h-[490px] self-start -mb-30">
             <img
               src="/degree.png"
               alt="degree"
@@ -30,37 +33,31 @@ export default function Programs() {
           </div>
         </div>
 
-        {/* Right Section (Boxes in grid) */}
-        <div className="flex flex-col gap-6 self-center md:mr-10" style={{ fontFamily: "'Myriad Pro', sans-serif" }}>
-          {/* Row 1 */}
-          <div className="grid grid-cols-3 gap-6">
-            {boxes.slice(0, 3).map((box, i) => (
-              <div key={`row1-${i}`} className="border-1 border-white rounded-xl p-3 w-[220px] h-auto">
+        {/* Right Section (Boxes) */}
+        <div
+          className="mt-6 md:mt-0 flex flex-col gap-6 md:self-center md:mr-10 md:w-[220] order-2 md:order-none"
+          style={{ fontFamily: "'Myriad Pro', sans-serif" }}
+        >
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+            {boxes.map((box, i) => (
+              <div
+                key={i}
+                className="border border-white rounded-xl p-4 w-full md:w-[220px]"
+              >
                 <p className="text-[14px] font-bold text-white leading-snug">{box.title}</p>
                 <p className="text-[12px] text-white mt-1 leading-tight">{box.subtitle}</p>
               </div>
             ))}
           </div>
+        </div>
 
-          {/* Row 2 */}
-          <div className="grid grid-cols-3 gap-6">
-            {boxes.slice(3, 6).map((box, i) => (
-              <div key={`row2-${i}`} className="border-1 border-white rounded-xl p-3  w-[220px] h-auto">
-                <p className="text-[14px] font-bold text-white leading-snug">{box.title}</p>
-                <p className="text-[12px] text-white mt-1 leading-tight">{box.subtitle}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Row 3 */}
-          <div className="grid grid-cols-3 gap-6">
-            {boxes.slice(6, 8).map((box, i) => (
-              <div key={`row3-${i}`} className="border-1 border-white rounded-xl p-3  w-[220px] h-auto">
-                <p className="text-[14px] font-bold text-white leading-snug">{box.title}</p>
-                <p className="text-[12px] text-white mt-1 leading-tight">{box.subtitle}</p>
-              </div>
-            ))}
-          </div>
+        {/* Mobile Image → sabse niche */}
+        <div className="block md:hidden w-[250px] mt-6 self-center order-3">
+          <img
+            src="/degree.png"
+            alt="degree"
+            className="w-full h-auto object-contain"
+          />
         </div>
       </div>
     </div>

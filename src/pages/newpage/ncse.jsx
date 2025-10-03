@@ -4,7 +4,7 @@ import React from "react";
 
 export default function WhyChoose() {
   return (
-    <div className="bg-[#fafafa] py-12 px-6 flex flex-col items-center pt-0 md:pt-25 pb-0 md:pb-25">
+    <div className="bg-[#fafafa] py-12 px-6 flex flex-col items-center pt-10 md:pt-25 pb-10 md:pb-25">
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Left Heading Section */}
         <div className="flex flex-col md:flex-col items-start md:items-right-safe justify-end">

@@ -34,9 +34,9 @@ export default function FAQ() {
 
   return (
     <div className="bg-white md:py-16 md:px-4 flex flex-col items-center ">
-      <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+      <h2 className="md:text-3xl text-[34px] font-bold mb-4 text-center md:pt-0 pt-5">Frequently Asked Questions</h2>
 
-      <div className="relative md:mb-14 w-full max-w-sm">
+      <div className="relative md:mb-14  mb-3 md:w-full w-80 max-w-sm">
         <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
           <svg
             className="w-4 h-4 text-gray-400"
@@ -59,7 +59,7 @@ export default function FAQ() {
         />
       </div>
 
-      <div className="w-full max-w-2xl">
+      <div className="md:w-full w-85 max-w-2xl ">
         {faqs.map((faq, index) => (
           <div key={index} className="rounded-2xl mb-4 overflow-hidden bg-gray-50">
             <button
