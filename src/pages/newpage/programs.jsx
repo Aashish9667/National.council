@@ -35,7 +35,7 @@ export default function Programs() {
 
         {/* Right Section (Boxes) */}
         <div
-          className="mt-6 md:mt-0 flex flex-col gap-6 md:self-center md:mr-10 md:w-[220] order-2 md:order-none"
+          className="mt-6 md:mt-0 flex flex-col gap-6 md:self-center md:mr-10 order-2 md:order-none"
           style={{ fontFamily: "'Myriad Pro', sans-serif" }}
         >
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
