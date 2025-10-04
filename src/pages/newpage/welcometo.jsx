@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center md:mt-30 md:mb-20 mb-5 mt-5">
+    <div className="flex justify-center md:mt-15 md:mb-20 mb-5 mt-5">
       {/* Content Wrapper */}
       <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between w-full md:w-[1512px] px-4 md:px-0 md:mr-10 md:ml-10 mr-0 ml-0">
         
