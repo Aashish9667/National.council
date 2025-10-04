@@ -23,7 +23,7 @@ export default function Page14() {
             Your opportunity starts now.
           </h1>
 
-          <div className="bg-[#1D3D76] md:w-fit  rounded-lg mt-3 md:mb-10 mb-10 whitespace-nowrap">
+          <div className="bg-[#1D3D76] md:w-fit  rounded-lg mt-3 md:mb-10 mb-10 w-fit">
             <h1 className="text-white p-2 text-sm md:text-base font-bold md:px-14 px-1 py-1 text-left">
               From nurturing roots to creating a worldwide impact.
             </h1>
