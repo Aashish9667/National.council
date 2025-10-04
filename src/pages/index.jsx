@@ -27,7 +27,7 @@ export default function Home() {
       <Curriculumandsyllabus />
       <Feature />
       <Event />
-      <Blogsection />
+      <Blogsection/>
       <Successstory />
       <Questionssection />
       <Navigationlink />

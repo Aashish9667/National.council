@@ -17,12 +17,12 @@ export default function Navbar() {
   return (
     <div className="md:mt-10">
       <style>{`
-  .swiper-pagination-bullet {
+  .custom-pagination .swiper-pagination-bullet {
     background-color: #AEAEAE !important; 
-    opacity: 1;
+    opacity: 1 !important;
   }
-  .swiper-pagination-bullet-active {
-    background-color: white !important; 
+  .custom-pagination .swiper-pagination-bullet-active {
+    background-color: #FFFFFF !important; 
   }
 `}</style>
 
@@ -66,7 +66,7 @@ export default function Navbar() {
           {/* Explore More Button */}
           <div className="md:mt-15 mt-5">
             <button
-              className="cursor-pointer flex justify-center items-center mb-2 mx-auto text-[16px] text-white border-0 px-4 py-2 rounded-full hover:bg-orange-600 bg-orange-500 leading-[22px] font-semibold"
+              className="cursor-pointer flex justify-center items-center mb-2 mx-auto text-[10px] md:text-[16px] text-white border-0 md:px-4 md:py-2 px-2 py-1 rounded-full hover:bg-orange-600 bg-orange-500 leading-[22px] font-semibold"
               style={{ fontFamily: "'Myriad Pro', sans-serif" }}
             >
               Explore More

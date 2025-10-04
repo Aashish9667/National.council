@@ -27,7 +27,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="bg-[#fafafa] md:pt-20 md:mt-0 pt-10">
+    <div className="bg-[#fafafa] md:pt-20 md:mt-0 pt-15">
       {/* Section Title */}
       <div
         className="text-center md:pt-4 md:pb-4 font-bold text-[34px] md:text-[44px] leading-[48px]"
@@ -77,6 +77,16 @@ export default function Navbar() {
         {/* ✅ Single Dots Container */}
         <div ref={paginationRef} className="flex justify-center mt-10"></div>
       </div>
+      <style>{`
+  .swiper-pagination-bullet {
+    background-color: #000 !important;   /* sabhi dots black */
+    opacity: 0.3;                        /* halka gray effect for inactive */
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #000 !important;   /* active dot bhi pure black */
+    opacity: 1;
+  }
+`}</style>
     </div>
   );
 }
