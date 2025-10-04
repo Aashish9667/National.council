@@ -5,7 +5,7 @@ import { Pause, Play } from "lucide-react"; // ✅ icon set (or use any icon lib
 export default function Page14() {
   return (
     <div
-      className="w-full h-[562px] md:h-[490px] flex justify-end items-end px-4 md:px-8 relative md:mt-28 mt-20 pt-6 md:pt-0"
+      className="w-full h-[577px] md:h-[490px] flex justify-end items-end px-4 md:px-8 relative md:mt-28 mt-20 pt-6 md:pt-0"
       style={{
         backgroundImage: `url('/baner1.png')`, // ✅ background banner
         backgroundSize: "cover",

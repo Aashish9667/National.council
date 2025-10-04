@@ -3,7 +3,7 @@ import React from "react";
 export default function Page14() {
   return (
     <div
-      className="w-full md:h-[490px] h-[585px] flex justify-center items-center px-4 md:px-8 md:mt-28 mt-20  relative bg-amber-100"
+      className="w-full md:h-[490px] h-[600px] flex justify-center items-center px-4 md:px-8 md:mt-28 mt-20  relative bg-amber-100"
     >
       {/* Reduced horizontal gap using gap-x-2 */}
       <div className="flex flex-col md:flex-row justify-between w-full max-w-[1200px] relative h-full md:gap-x-2">
