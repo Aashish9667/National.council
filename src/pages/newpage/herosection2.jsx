@@ -60,7 +60,7 @@ export default function Page14() {
           />
 
           {/* Vertical Right Button */}
-          <button className="absolute  md:-right-1 -right-5 bottom-70 md:bottom-80 bg-orange-500 text-white px-2 py-1 rounded-b-lg rotate-90 hover:bg-orange-600 shadow-lg">
+          <button className="absolute  md:-right-1 -right-5 bottom-75 md:bottom-80 bg-orange-500 text-white px-2 py-1 rounded-b-lg rotate-90 hover:bg-orange-600 shadow-lg">
             <span className="block whitespace-nowrap cursor-pointer">
               Enquiry now
             </span>

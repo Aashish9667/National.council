@@ -28,7 +28,7 @@ export default function Navbar() {
 
       <div className="bg-[#1D3D76] w-full h-full md:pt-10 pt-7 ">
         <h1
-          className="md:text-[44px] text-[34px] mb-5  md:mb-20 font-bold text-center text-white md:leading-[48px] leading-[38px]"
+          className="md:text-[44px] text-[34px] md:pl-0 md:pr-0 pr-3 pl-3 mb-5  md:mb-20 font-bold text-center text-white md:leading-[48px] leading-[38px]"
           style={{ fontFamily: "'Myriad Pro', sans-serif" }}
         >
           Featured Achievements
@@ -51,7 +51,7 @@ export default function Navbar() {
             >
               {images.map((img, index) => (
                 <SwiperSlide key={index}>
-                  <div className="w-[385px] h-[212px] overflow-hidden border-1 border-transparent hover:border-white hover:shadow-lg transition-all duration-300 mx-auto">
+                  <div className="md:w-[385px] md:h-[212px]  w-[300px] h-[180px] overflow-hidden border-1 border-transparent hover:border-white hover:shadow-lg transition-all duration-300 mx-auto">
                     <img
                       src={img}
                       alt={`Achievement ${index}`}
