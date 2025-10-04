@@ -3,7 +3,7 @@ import React from "react";
 export default function Page14() {
   return (
     <div
-      className="md:w-full h-[600px] md:h-[490px] flex justify-center items-center px-4 md:px-8 md:mt-29 mt-20 relative"
+      className="md:w-full h-[620px] md:h-[490px] flex justify-center items-center px-4 md:px-8 md:mt-29 mt-20 relative"
       style={{
         backgroundImage: `url('/2.png')`,
         backgroundSize: "cover",
@@ -23,7 +23,7 @@ export default function Page14() {
             Your opportunity starts now.
           </h1>
 
-          <div className="bg-[#1D3D76] md:w-fit  rounded-lg mt-3 md:mb-10 mb-10 text-left">
+          <div className="bg-[#1D3D76] md:w-fit  rounded-lg mt-3 md:mb-10 mb-10 whitespace-nowrap">
             <h1 className="text-white p-2 text-sm md:text-base font-bold md:px-14 px-1 py-1 text-left">
               From nurturing roots to creating a worldwide impact.
             </h1>

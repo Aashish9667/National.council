@@ -3,7 +3,7 @@ import React from "react";
 export default function Page14() {
   return (
     <div
-      className="w-full md:h-[490px] h-[600px] flex justify-center items-center px-4 md:px-8 md:mt-28 mt-20  relative bg-amber-100"
+      className="w-full md:h-[490px] h-[620px] flex justify-center items-center px-4 md:px-8 md:mt-28 mt-20  relative bg-amber-100"
     >
       {/* Reduced horizontal gap using gap-x-2 */}
       <div className="flex flex-col md:flex-row justify-between w-full max-w-[1200px] relative h-full md:gap-x-2">
@@ -30,7 +30,7 @@ export default function Page14() {
           <img
             src="/5.png"
             alt="educated"
-            className="absolute bottom-0 w-full md:w-auto max-w-[700px] md:max-w-[600px] max-h-[970px] object-contain"
+            className="absolute bottom-0 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 w-full md:w-auto max-w-[700px] md:max-w-[600px] max-h-[970px] object-contain"
           />
 
           {/* Vertical Right Button */}
